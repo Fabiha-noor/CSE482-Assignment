@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.main{
+
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hotpink;
+
+}
+span{
+  color: floralwhite;
+
+}
+.article{
+
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  justify-content: space-between;
+  background-color: skyblue;
+ 
+}
+.Portfolio-pic{
+
+  width: 75%;
+  height: 75%;
+}
+
+
+footer h1{
+background-color: hotpink;
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
